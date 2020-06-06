@@ -1,0 +1,92 @@
+body {
+    color:#333333;
+    font-family:arial;
+    max-width:650px;
+    margin:0 auto;
+    padding:0 16px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+.main-content{
+    flex-grow: 1;
+
+}
+footer {
+    color:#888888;
+    border-top:1px solid #eeeeee;
+    margin-top:16px;
+    padding:16px 0;
+    color: firebrick;
+}
+header {
+    margin-top:16px;
+    margin-bottom:48px;
+    color: firebrick;
+}
+h1 {
+    font-size: 64px;
+}
+header a {
+    color:firebrick;
+    margin-right:16px;
+    text-decoration: none;
+    font-size: 32px;
+}
+a.hover{
+    color: darkred;
+}
+input{
+    margin: 30px;
+    padding: 8px;
+    font-family: serif;
+    background-color: #ffffff;
+     border: 1px solid black;
+     opacity: 0.4;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color:white;
+    padding: 8px;
+    font-family: serif;
+    background: firebrick;
+}
+
+p{
+    font-family:serif;
+    
+}
+h2{
+    color: brown;
+    font-size: x-large;
+    text-decoration: chocolate;
+    text-shadow: 2px 2px 2px chocolate;
+    font-family: serif;
+}
+#message-1{
+    color: brown;
+    font-size: x-large;
+    text-decoration: chocolate;
+    text-shadow: 2px 2px 2px chocolate;
+    font-family: serif;
+}
+#message-2{
+    color: brown;
+    font-size: x-large;
+    text-decoration: chocolate;
+    text-shadow: 2px 2px 2px chocolate;
+    font-family: serif;
+}
+h1{
+    font-family: serif;
+}
+body{
+    background-image:url('../image/weather_bg.jpg');
+    background-repeat:no-repeat,repeat;
+    background-size: cover;
+}
